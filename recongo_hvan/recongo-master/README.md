@@ -197,6 +197,10 @@ CPU Time     : 0.015s
 
 *Vui lòng sử dụng tùy chọn `-h` hoặc `--help` để xem thêm thông tin chi tiết về các tham số khác.*
 
+# Chạy thử nghiệm hệ thống có giới hạn tài nguyên khắt khe:
+python recongo.py example/isrp/encoding/isrpTJ_ex1_basic_nohints_inc.lp example/isrp/benchmark/original/isrp-ex.lp example/isrp/benchmark/original/isrp-ex_01.lp resource_constraint.lp
+
+
 ---
 
 ## Cấu trúc thư mục (Directory)
