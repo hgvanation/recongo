@@ -1,8 +1,3 @@
-Dưới đây là bản dịch **đầy đủ 100% không sót một chữ** từ tài liệu gốc của dự án, đồng thời tôi đã tích hợp phần hướng dẫn chạy chi tiết các file bổ sung (`custom_steps_and_nodes.lp`, `flexible_goal.lp`) của bạn vào đúng cấu trúc để bạn có một tài liệu hướng dẫn hoàn chỉnh nhất.
-
-Bạn chỉ cần bấm nút copy ở góc khung code rồi paste đè lên toàn bộ nội dung file `README.md` của mình nhé:
-
-```markdown
 # recongo
 
 ## Giới thiệu
@@ -28,9 +23,7 @@ Cú pháp cơ bản của dự án yêu cầu truyền file logic (encoding) cù
 
 ```bash
 python recongo.py example/isrp/encoding/isrpTJ_ex1_basic_nohints_inc.lp example/isrp/benchmark/original/isrp-ex.lp example/isrp/benchmark/original/isrp-ex_01.lp
-
 ```
-
 <details><summary>Ví dụ kết quả đầu ra (Output example)</summary>
 
 ```
