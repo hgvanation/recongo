@@ -58,10 +58,6 @@ CPU Time     : 0.005s
 
 </details>
 
-### 2. Kịch bản bổ sung yêu cầu mới (Tùy biến của bạn)
-
-Khi bạn muốn giữ nguyên bộ dữ liệu gốc `isrp-ex_01.lp` nhưng áp dụng thêm các điều kiện hoặc ràng buộc mới, bạn chỉ cần truyền thêm các file `.lp` bổ sung vào cuối câu lệnh:
-
 * **Trường hợp A: Thay đổi số bước đi ($k = 5$) và chặn đỉnh lỗi (đỉnh 6)**
 Sử dụng kết hợp file dữ liệu gốc và file bổ sung `custom_steps_and_nodes.lp`:
 ```bash
@@ -88,7 +84,7 @@ python recongo.py example/isrp/encoding/isrpTJ_ex1_basic_nohints_inc.lp example/
 
 ### 3. Đối với các trường hợp không thể tiếp cận (Unreachable)
 
-Nếu bạn muốn giải các bài toán không có lời giải (unreachable), bạn phải sử dụng tùy chọn `--imax`. Recongo sẽ báo trạng thái `unreachable` nếu không tìm thấy chuỗi cấu hình nào có độ dài từ 0 đến $(\text{giá trị của imax}) - 1$.
+Nếu muốn giải các bài toán không có lời giải (unreachable), bạn phải sử dụng tùy chọn `--imax`. Recongo sẽ báo trạng thái `unreachable` nếu không tìm thấy chuỗi cấu hình nào có độ dài từ 0 đến $(\text{giá trị của imax}) - 1$.
 
 Ví dụ dưới đây sử dụng giá trị `imax` bằng 6 (chính là số lượng tập độc lập khả thi của bộ dữ liệu `hc-toyno-01`):
 
